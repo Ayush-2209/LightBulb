@@ -1,0 +1,54 @@
+body{
+    background-color: aliceblue;
+}
+h1{
+    color: darkgoldenrod;
+    text-align: center;
+    font-size: 70px;
+}
+.image_banner{
+  display: flex; 
+  justify-content: center; /* Horizontal centering */
+  align-items: center; /* Vertical centering */
+}
+
+#bulb-image {
+    max-width: 100%; /* Ensure the image doesn't exceed the width of its container */
+    max-height: 100%; /* Ensure the image doesn't exceed the height of its container */
+}
+
+
+
+.button_banner {
+    display: flex;
+    justify-content: center; /* Center the buttons horizontally */
+    align-items: center; /* Center the buttons vertically */
+    margin: 20px;
+  }
+
+  .on-button,
+  .off-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  .on-button {
+    background-color: #4CAF50; /* Green */
+    color: white;
+  }
+  
+  .off-button {
+    background-color: #f44336; /* Red */
+    color: white;
+  }
+  
+  .on-button:hover,
+  .off-button:hover {
+    opacity: 0.8;
+  }  
+
